@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100vh;
+    font-family: "Arial";
+    background: #FFF;
+
+}
+p{
+    font-size: 24px;
+    margin-bottom: 2px;
+    font-family: "Inter";
+}
+h3{
+    font-size: 30px;
+}
+h2{
+    font-size: 25px;
+    gap: 10px;
+    font-weight: 200;
+    font-family: "Inter";
+    margin-bottom: 30px;
+}
+h1{
+    font-family: "Inter";
+    line-height: normal;
+    font-size: 75px;
+    margin-bottom: 30px;
+}
+#headingtext{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+#aboutheading{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+#aboutheading img{
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+#navbar{
+    display: flex;
+    margin-left: 70%;
+    width: 30%;
+    gap: 15%;
+}
+#navbar p{
+    margin-top: 45px;
+}
+#ex1text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20%;
+}
+#ex1{
+    display: flex;
+    gap: 10%;
+}
+#ex1whole{
+    margin-left: 10%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+}
+#ex1whole img a{
+   width: 40%;
+   height: 45%;
+}
+.arial{
+    font-size: 50px;
+    font-family: "Arial";
+}
+.descrip{
+    padding-top: 30px;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+#navbar > p{
+    border-bottom: 2px solid black;
+}
+
