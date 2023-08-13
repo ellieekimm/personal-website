@@ -118,7 +118,28 @@ h1{
     margin-left: 10%;
     gap: 10%;
     margin-right: 10%;
+    padding-bottom: 10%;
+}
+#thirdItem{
+    display: flex;
+    margin-left: 10%;
+    gap: 10%;
+    margin-right: 10%;
     padding-bottom: 20%;
+}
+#thirdItemText{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 15px;
+    font-family: "Inter";
+}
+#thirdItemText > h1{
+    margin-bottom: 0px;
+    font-size: 68px;
+}
+#thirdItemText > p{
+    font-size: 20px;
 }
 @keyframes gradient {
 	0% {
@@ -142,4 +163,18 @@ a:visited{
 }
 #navbar > #work{
     border-bottom: 2px solid black;
+}
+
+#korean{
+    width: 500px;
+    height: 250px;
+}
+#koreavideo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Inter";
+}
+#koreavideo p{
+    font-size: 15px;
 }
