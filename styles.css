@@ -174,7 +174,11 @@ a:visited{
     flex-direction: column;
     gap: 10px;
     font-family: "Inter";
+    margin-top: 10%;
 }
 #koreavideo p{
     font-size: 15px;
+}
+#navbar > p a{
+    font-size: 20px;
 }
