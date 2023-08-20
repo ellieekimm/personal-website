@@ -63,9 +63,8 @@ h1{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
     width: 80%;
-    margin-right: 10%;
 }
 #ex1{
     display: flex;
@@ -101,9 +100,39 @@ a{
 }
 #internquestion{
     text-align: center;
+    margin-top: 30px;
 }
 #prompt{
     width: 40%;
     height: 20%;
     margin-top: 10%;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%;
+    gap: 14%;
+    padding-bottom: 5%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+#wireframe1{
+    height: 20%;
+    width: 20%;
+}
+
+#wireframe2{
+    width: 20%;
+    height: 20%;
+}
+
+#wireframe3{
+    width: 20%;
+    height: 20%;
+}
+#descriptionheadshot{
+    padding-bottom: 20%;
+    width: 80%;
 }
